@@ -13,7 +13,7 @@ module.exports = {
         let newHouse = {
             id: mainid,
             address, 
-            price,
+            price: +price,
             imageURL
         }
         houses.push(newHouse)

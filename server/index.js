@@ -9,9 +9,9 @@ app.use(cors())
 
 //--------ENDPOINTS-------------------------------------//
 app.get(`/api/houses`, getHomes)
-app.delete(`/api/houses/:id`, deleteHome)
 app.post(`/api/houses`, createHome)
 app.put(`/api/houses/:id`, updateHome)
+app.delete(`/api/houses/:id`, deleteHome)
 //------------------------------------------------------//
 
 app.listen(4004, () => console.log(`Server Listening At Port 4004`))
